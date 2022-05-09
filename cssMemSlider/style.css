@@ -29,6 +29,8 @@ body {
 }
 
 .slider {
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -59,4 +61,28 @@ body {
   align-self: center;
   max-width: 95%;
   max-height: 80vh;
+}
+
+.slider input {
+  display: none;
+}
+
+.slider__controls {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  width: 9rem;
+  height: 1rem;
+  margin-top: -2.7rem;
+}
+
+.slider__controls label {
+  display: inline-flex;
+}
+
+.controls__item {
+  width: 1rem;
+  height: 1rem;
+  background: #555;
+  border-radius: 50%;
 }
