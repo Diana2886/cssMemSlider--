@@ -236,9 +236,3 @@ body {
     padding: 1.6rem 1rem;
   }
 }
-
-@media (max-width: 485px) {
-  .title {
-    font-size: 1.8rem;
-  }
-}
