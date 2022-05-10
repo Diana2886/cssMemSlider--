@@ -7,7 +7,7 @@
 body {
   height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #ffffff;
   text-shadow: 0 0 0.4rem #242424;
   background-blend-mode: screen;
@@ -87,7 +87,7 @@ body {
 
 .slider__controls {
   display: flex;
-  height: 3.5rem;
+  height: inherit;
   gap: 0.5rem;
   padding: 0.2rem;
   background: skyblue;
@@ -226,10 +226,6 @@ body {
 }
 
 @media (max-width: 485px) {
-  body {
-    font-size: 1rem;
-  }
-
   .title {
     font-size: 1.8rem;
   }
