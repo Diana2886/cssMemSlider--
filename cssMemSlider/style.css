@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -200,12 +201,11 @@ body {
   .content {
     flex-direction: column-reverse;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .slide {
     height: 65vh;
-    margin: 1rem 0;
     padding: 0.5rem;
   }
 
@@ -221,7 +221,19 @@ body {
   .slider__controls {
     align-self: center;
     height: 1.5rem;
+    gap: 1rem;
     background: none;
+  }
+
+  .controls__label {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  .controls__item {
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: 1.6rem 1rem;
   }
 }
 
