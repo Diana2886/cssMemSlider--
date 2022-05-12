@@ -83,7 +83,9 @@ body {
 }
 
 .slider input {
-  display: none;
+  width: 0;
+  height: 0;
+  visibility: hidden;
 }
 
 .slider__controls {
