@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/favicon.ico">
+  <title>CSS Mem Slider</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">CSS Mem Slider</h1>
+    <div class="slider">
+      <input type="radio" name="point" id="slide1" checked>
+      <input type="radio" name="point" id="slide2">
+      <input type="radio" name="point" id="slide3">
+      <input type="radio" name="point" id="slide4">
+      <input type="radio" name="point" id="slide5">
+      <div id="slides">
+        <div class="slider__slides">
+          <div class="slide">
+            <img class="slide__img" src="./assets/img/1.jpg" alt="img">
+          </div>
+          <div class="slide">
+            <img class="slide__img" src="./assets/img/2.jpg" alt="img">
+          </div>
+          <div class="slide">
+            <img class="slide__img" src="./assets/img/3.jpg" alt="img">
+          </div>
+          <div class="slide">
+            <img class="slide__img" src="./assets/img/4.jpg" alt="img">
+          </div>
+          <div class="slide">
+            <img class="slide__img" src="./assets/img/5.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div id="content">
+          <div class="slides__text">
+            <div class="slide__content">
+              <p class="slide__text">Нужно тщательно выбирать то, что ты вставляешь к себе в код</p>
+            </div>
+            <div class="slide__content">
+              <p class="slide__text">КПД мозга в данный момент равен нулю</p>
+            </div>
+            <div class="slide__content">
+              <p class="slide__text">Когда решил показать кому-то своё приложение, а оно начало крашиться каждые 2 минуты</p>
+            </div>
+            <div class="slide__content">
+              <p class="slide__text">Не Vim, а лабиринт минотавра</p>
+            </div>
+            <div class="slide__content">
+              <p class="slide__text">Как ведёт себя сеньор на опыте</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider__controls">
+          <label class="controls__label" for="slide1"><span class="controls__item"></span></label>
+          <label class="controls__label" for="slide2"><span class="controls__item"></span></label>
+          <label class="controls__label" for="slide3"><span class="controls__item"></span></label>
+          <label class="controls__label" for="slide4"><span class="controls__item"></span></label>
+          <label class="controls__label" for="slide5"><span class="controls__item"></span></label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
